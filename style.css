@@ -1,2 +1,64 @@
-body
- { background-color: rgba(128, 161, 156, 0.89);"}
+body{
+   width: 100%;
+   height: 100%;
+  background:linear-gradient(0deg, rgba(174, 182, 180, 0.877), rgba(174, 182, 180, 0.877)), url(./Images/suplementet\ tu\ i\ ble.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: rgba(0, 0, 0, 0.918)
+  text-shadow: 3px -3px 6px rgba(95,95,95,0.36);
+}
+
+h1{
+
+font-size: 30px;
+text-transform: uppercase;
+color: rgba(97, 11, 11, 0.582);
+font-weight: bold;
+font-style: italic;
+}
+
+a{
+  border: 2px solid black;
+  padding: 3px;
+  margin: 3px;
+  display: inline-block;
+  color: red;
+  font-weight: bold;
+  letter-spacing: 2px;
+  background-color: black;
+  transition: 0.5s 0s all ease-in-out;
+}
+a:hover{
+  color:black;
+  background-color: white;
+}
+
+h2{
+  text-shadow: -5px 8px 4px rgba(1,1,1,0.62);
+}
+
+strong{
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.klasa2{
+  border: 1px solid black;
+  background-color: rgba(100, 22, 22, 0.568);
+  font-size: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 10px ;
+
+}
+.klasa3{
+  color: red;
+  font-size: 35px;
+}
+
+
+
